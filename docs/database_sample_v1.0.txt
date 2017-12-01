@@ -1,0 +1,52 @@
+1. khách hàng:
+- id
+- họ
+- tên
+- sdt
+- địa chỉ
+- email
+- mật khẩu (đăng nhập trang dành cho khách hàng)
+- giới tính
+- ngày sinh
+- nhóm khách hàng (tiềm năng, khách hàng cũ, khách hàng reject,...)
+
+- Loại máy
+- Tình trạng chăm sóc (chưa gọi bao giờ, đã gọi)
+- ngày gọi (lấy current_time_today())
+- ngày thay lõi gần nhất
+- Phụ kiện đã thay
+- Ghi chú khác
+
+- id nhân viên chăm sóc
+- id đơn hàng
+- QR code
+- Tích chọn nhắc nhở (qua email, qua điện thoại)
+
+2. Nhân viên:
+- id
+- họ
+- tên
+- mã nhân viên
+- chức vụ
+- email
+- sđt
+- mật khẩu
+
+3. Đơn hàng:
+- id 
+- mã đơn hàng
+- id nhân viên bán hàng gọi
+- id nhân viên kỹ thuật
+- ngày thực hiện
+- id khách hàng
+- tình trạng đơn hàng
+- ghi chú
+- phụ kiện, giá, số lượng
+- thành tiền
+- Trạng thái sửa (đã từng sửa)
+
+4. Sản phẩm - Kho:
+- id
+- Danh mục kho
+- Khu vực - tên
+- Sản phẩm (các thuộc tính sản phẩm - tham khảo locnuoc365.com) - Số lượng sản phẩm

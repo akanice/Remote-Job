@@ -1,0 +1,163 @@
+/* phones and tablets */
+@media (min-width: 768px) {
+	.dropdown .dropdown-menu {
+		transition: all 0.2s ease-in-out;
+		transform: translate(0,20px);
+		max-height: 0;
+		display: block;
+		overflow: hidden;
+		opacity: 0;
+		visibility: hidden;
+	}
+
+	.dropdown.open .dropdown-menu {
+		transform: translate(0,0px);
+		max-height: 300px;
+		opacity: 1;
+		visibility: visible;
+	}
+}
+@media (min-width: 768px) and (max-width: 1360px) {
+}
+
+@media (min-width: 768px) and (max-width: 960px) {
+	.team_wrap {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.team_item {
+		height: 250px;
+	}
+	.hgroup-sidebar .widget {
+		padding: 15px;
+	}
+}
+@media (max-width: 768px) {
+	.navbar-nav {
+		margin: 5px 0 0 0;
+	}
+	.tour-detail .col-md-3.fright {
+		width: 100%;
+	}
+	.first-tour .img-holder{
+		width: auto;
+		height: 100%;
+	}
+	.feedback-header.flexible,.tour-listing .flexible {
+		display: block;
+	}
+	.tour-listing .item .flexible .thumb {
+		padding: 15px;
+	}
+	.feedback-avatar {
+		display: block;
+		width: 120px;
+		margin: 15px auto;
+	}
+	.feedback-info .line > span {
+		width: auto;
+	}
+	.tour-content .nav-tabs > li > a {
+		margin: 0 2px;
+		padding: 10px 12px;
+	}
+	.table-responsive{
+		overflow-x: scroll;
+	}
+	.ln-navbar.navbar{
+		background: #fff;
+		border-bottom: 1px solid #eee;
+	}
+	.breadcrumbs {
+		background: #3dc32a;
+		color: #e6e6e6;
+		padding: 5px 0;
+	}
+	.breadcrumbs a{
+		color: #fff;
+	}
+	.tour-listing .short_info, .tags {
+		border: 0;
+	}
+	.ln-navbar li a {
+		color:#333;
+		padding: 10px 20px;
+	}
+	.ln-navbar li a:hover,.ln-navbar li a:focus {
+		color: #fff;
+	}
+	.ln-navbar .dropdown-menu li a {
+		color: #666;
+		padding: 10px 20px;
+	}
+	#tab-content-tour.affix {
+		width: auto;
+		left: 0;
+		right: 0;
+	}
+	.tour-content .nav-tabs >li{
+		width: 33%;
+		text-align: center;
+	}
+	.blocksection.home_short_introduction {
+		padding: 20px 0;
+	}
+	#booking-room-2 .item{
+		padding: 15px;
+	}
+}
+@media (min-width: 768px) and (max-width: 1920px) {
+	.product-image  img {
+		height: 174px;
+	}
+	.table-responsive{
+		overflow-x: hidden;
+	}
+}
+
+/* Landscape phones and down */
+@media (max-width: 430px) {
+
+}
+
+/* Landscape phones and down */
+@media (max-width: 385px) {
+
+}
+
+/* FullHD and 4K screen */
+.page-cover.tour_detail {
+	background-size:cover;
+}
+/* collapsed sidebar styles */
+@media screen and (max-width: 767px) {
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+  }
+  .row-offcanvas-right
+  .sidebar-offcanvas {
+    right: -41.6%;
+  }
+
+  .row-offcanvas-left
+  .sidebar-offcanvas {
+    left: -41.6%;
+  }
+  .row-offcanvas-right.active {
+    right: 41.6%;
+  }
+  .row-offcanvas-left.active {
+    left: 41.6%;
+  }
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 41.6%;
+  }
+  #sidebar {
+    padding-top:0;
+  }
+}

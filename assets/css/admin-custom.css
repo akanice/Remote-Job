@@ -1,0 +1,51 @@
+﻿.left-side,body > .header .logo {
+	width: 265px;
+}
+body > .header .navbar,.right-side {
+	margin-left: 265px;
+}
+.skin-black .left-side {
+    background: #333;
+}
+.skin-black .navbar .sidebar-toggle .icon-bar {
+	background: #fafafa;
+}
+.sidebar .sidebar-menu > li > a {
+	font-size: 15px;
+	padding: 15px;
+}
+.skin-black .navbar .nav > li > a:hover {
+	background: #a52215;
+}
+.skin-black .sidebar > .sidebar-menu > li > a:hover, .skin-black .sidebar > .sidebar-menu > li.active > a,.skin-black .navbar {
+	background: #c0392b;
+}
+.skin-black .logo,.skin-black .logo:hover {
+	background: #333;
+}
+.profile-user-img {
+    margin: 0 auto;
+    width: 100px;
+    padding: 3px;
+    border: 3px solid #d2d6de;
+}
+h3 {
+	font-size: 21px;
+	font-family: RobotoCondensed-Light;
+}
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+.table>thead>tr>th {
+	background: #fff;
+	color: #333;
+}
+.box.box-danger {
+	border: 1px solid #c0392b;
+}
+.box.box-solid.box-danger > .box-header {
+	background: #c0392b;
+}

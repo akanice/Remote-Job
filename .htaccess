@@ -1,0 +1,6 @@
+RewriteBase /
+RewriteEngine on
+RewriteCond $1 !^(index\.php|assets|fblogin)
+RewriteRule ^(.*)$ index.php?/$1 [L]
+#RewriteCond %{HTTP_HOST} ^www.maichautourist.com$
+#RewriteRule ^(.*)$ http://maichautourist.com/$1 [R=301,L]

@@ -1,0 +1,14 @@
+.invoice {
+    position: relative;
+    background: #fff;
+    border: 1px solid #f4f4f4;
+    padding: 20px;
+    margin: 10px 25px;
+	border: 0;
+}
+.table-invoice >thead>tr>th {
+	background: #fff;
+	color: #333;
+	border-bottom: 2px solid #f4f4f4;
+	font-weight: 900;
+}
